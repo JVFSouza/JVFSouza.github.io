@@ -1,0 +1,59 @@
+body{
+	background: #D6FFF6;
+}
+
+
+#doodle{
+	width: 30%;
+	padding-left: 450px;
+}
+
+
+
+h1 {
+	text-align: center;
+}
+
+.segundaParte{
+	background: #FE5D26;
+	padding: 30px;
+}
+
+
+#euzinho{
+	font-size: 20px;
+}
+
+
+
+p {
+	text-align: center;
+}
+
+
+.terceiraParte{
+	background: #A5BE00;
+}
+
+.titutlo3parte{
+	text-align: center;
+}
+
+ul{
+	display:inline-block;
+	vertical-align: top;
+}
+
+.pretendemos{
+	font-style: italic;
+}
+
+.obmatizando{
+	width: 50%;
+	padding-left: 100px;
+}
+
+.botaodofds{
+	font-size: large;
+	margin: 300px;
+}

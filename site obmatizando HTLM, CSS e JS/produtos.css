@@ -1,0 +1,33 @@
+header{
+    background-color: #D6FFF6;
+}
+
+.caixa{
+    position: relative;
+    width: 1040px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.obmatiznado{
+    width: 25%;
+}
+
+nav{
+position: absolute;
+top: 120px;
+right: 0px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 35px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}

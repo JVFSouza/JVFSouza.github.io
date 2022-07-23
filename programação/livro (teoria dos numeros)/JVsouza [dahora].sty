@@ -1,0 +1,98 @@
+\NeedsTeXFormat{LaTeX2e}
+
+% Nome do Package =)
+\ProvidesPackage{JVFSouza}
+
+
+% Packages NECESSARIOS para a vida na terra 
+
+
+
+% para simbolos, escrever equações e etc
+\RequirePackage{amssymb}
+\RequirePackage{amsmath}
+
+% para caixinha colorida
+\RequirePackage{xcolor}
+\RequirePackage{tcolorbox}
+
+% para links
+\RequirePackage{hyperref}
+% deixa coloridinho
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+
+% para criar artigos com "colunas" (mini max =)
+\RequirePackage{blindtext}
+\RequirePackage{multicol}}
+
+% package para index
+\RequirePackage{imakeidx}
+
+
+
+%%%%%%%%%% ---&--- Comandos de "\newenvironment" e "\newcommand" e coisas assim ---&--- %%%%%%%%%%
+
+
+
+
+% Comandos de grupos 
+\newcommand{\CC}{\mathbb C}
+\newcommand{\FF}{\mathbb F}
+\newcommand{\NN}{\mathbb N}
+\newcommand{\QQ}{\mathbb Q}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\ZZ}{\mathbb Z}
+
+% Comandos de desigualdades ou inequações
+\newcommand{\cyc}{\sum_{\mathrm{cyc}}}
+\newcommand{\sym}{\sum_{\mathrm{sym}}}
+
+
+
+
+%%%%%%%%%% ---&---  Definindo cores =)  ---&--- %%%%%%%%%%
+
+\definecolor{pretinho}{HTML}{000000}
+\definecolor{azulzinho}{HTML}{1B2CC1}
+\definecolor{vermelhinho}{HTML}{FD0000}
+\definecolor(verdinho){HTML}{18DA5C}
+
+
+
+%%%%%%%%%% ---&---  caso de merda...  ---&--- %%%%%%%%%%
+
+\DeclareOption*{\PackageWarning{JVsouza}{Unknown ‘\CurrentOption’}}
+\ProcessOptions\relax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

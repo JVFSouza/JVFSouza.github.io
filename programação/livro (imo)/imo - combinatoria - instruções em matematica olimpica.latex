@@ -1,0 +1,1855 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsbsy,amsmath,amsfonts,amssymb,amsthm,amscd,float}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{lipsum}
+\mdfdefinestyle{MyFrame}{%
+    linecolor=blue,
+    outerlinewidth=2pt,
+    roundcorner=20pt,
+    innertopmargin=\baselineskip,
+    innerbottommargin=\baselineskip,
+    innerrightmargin=20pt,
+    innerleftmargin=20pt
+    backgroundcolor=gray!50!white}
+    
+    \usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+\title{\textbf{TST cone sul + JBMO}}
+\author{Jompas}
+\date{}
+
+
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\normalsize
+\tableofcontents
+
+\section{Prefácio}
+
+
+\section{Testes De Seleção 2021}
+\subsection{Teste 1}
+
+
+\textbf{$\blacktriangleright$  PROBLEMA 1} 
+
+Encontre uma solução para a equação
+
+\begin{equation*}
+    \left \lfloor \frac{x}{1!} \right \rfloor + \left \lfloor \frac{x}{2!} \right \rfloor + \dots + \left \lfloor \frac{x}{10!} \right \rfloor = 2022
+\end{equation*}
+
+\vspace{0.2cm}
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$  PROBLEMA 2}
+
+Há 2022 cartões dentro de uma caixa. Cada um desses cartões possui duas faces: uma preta e uma branca. Ana e Beto jogam o seguinte jogo: Ana coloca os 2022 cartões em fila (em alguns dos cartões a face de cima
+será preta e em outros a face de cima será branca). Após isso, Beto pode realizar movimentos, não mais do
+que 2022 vezes: ele escolhe um cartão, virando-o e virando o(s) seu(s) cartão(ões) vizinho(s) (se inicialmente a
+face de cima é preta, ele vira para a face branca e vice-versa). Beto ganha o jogo se ele conseguir que todos os
+cartões fiquem com as faces brancas para cima, caso contrário, Ana ganha o jogo. Algum dos dois jogadores
+possui uma estratégia vencedora? Justifique sua resposta
+
+\vspace{0.1cm}
+
+\emph{Observação}: Os cartões do início e do fim da fila possuem 1 cartão vizinho e os demais cartões possuem 2
+cartões vizinhos.
+
+\vspace{0.2cm}
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$  PROBLEMA 3}
+
+
+Encontre todas as quádruplas $(a,m, n, k)$ de inteiros positivos tais que $(a^m + 1)(a^n - 1) = 15^k$.
+
+\vspace{0.2cm}
+
+
+
+
+\textbf{$\blacktriangleright$  PROBLEMA 4} 
+
+Seja $ABCDEF$ um hexágono convexo tal que suas diagonais $AD, BE$ e $CF$ têm um ponto em comum $M$. Sabe-se que os triângulos $MAB, MBC, MCD, MDE, MEF$ e $MFA$ são acutângulos e que seus circuncentros estão todos
+sobre uma mesma circunferência. Prove que os  quadriláteros  $ABDE, BCEF$  e  $CDFA$  possuem  a mesma  área.
+
+
+
+
+ 
+
+\subsection{Teste 2}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $ABC$ um triângulo tal que $\angle BAC = 90^\circ$. Os pontos $D$ e $E$ estão sobre os lados $AC$ e $AB$, respectivamente. Sabe se que $AE \cdot EB = CD \cdot AD$. Prove que $ME = MD$, onde $M$ é o ponto médio do segmento $BC$.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Existe um inteiro positivo $n$, divisível por $103$, e tal que $n$ divide $2^{2n+1} - 2$?
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Encontre todos os inteiros $n > 1$ tais que a desigualdade
+
+$$ \sum_{i=1}^{n} x_i^2 \geq x_n \sum_{i=1}^{n-1} x_i$$
+
+é satisfeita para todos os reais $x_1, x_2, \dots , x_n$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Em um país existem um número finito de cidades. Algumas cidades são conectadas por duas rotas de voo,
+uma em cada direção. Porém, o governo decidiu que, em meses de baixa demanda, uma das direções de cada
+rota de voo será fechada. Após tal remoção, uma cidade estaria sobrecarregada se tivesse pelo menos dois
+voos de entrada a mais que voos de saída, ou dois voos de saída a mais que voos de entrada. Mostre que,
+independentemente de como as cidades estiverem conectadas inicialmente, é possível fazer a remoção de uma
+das rotas de cada par de cidades conectadas de modo que nenhuma cidade fique sobrecarregada.
+
+\vspace{0.2cm}
+
+
+
+
+
+ 
+
+\subsection{Teste 3}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $(a_n)_{n=1}^{\infty}$
+uma sequência tal que $a_1 = 5$ e
+
+$$a_{n+1}=\dfrac{a_n^2}{a_n^2-4a_n+6}$$
+
+ para todo $n \geq 1$. Determine o valor do maior inteiro menor do que $a_{2021}$.
+
+\vspace{0.2cm}
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Sejam $a, b, c$ números naturais. Prove que existe um inteiro não negativo $k$ tal que $$mdc(a^k+bc, b^k+ca, c^k+ab)>1$$
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $ABC$ um triângulo. com $BA \neq BC$. Sejam $M$ o ponto médio de $AC$ e $I$ o incentro de $ABC$. Sejam $A_1$ e $C_1$ os pontos nos quais o círculo inscrito ao triângulo $ABC$ toca os lados $BC$ e $BA$, respectivamente. Seja $P$ o pé da perpendicular de $M$ até $A_1C_1$. A mediatriz de $AC$ encontra a reta $PI$ no ponto $N$. Mostre que $B, N, A, C$ estão sobre uma mesma circunferência.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Em um tabuleiro $m\times n$ (m, n $\geq$ 3), foram colocados dominós $1\times 2$ ou $2\times 1$ de modo que não haja dois deles sobrepostos. Cada dominó cobre exatamente duas casas do tabuleiro. Suponha que a configuração de dominós tem a propriedade de que não é possível colocar mais dominós no tabuleiro, e que nem todas as casas das quinas do tabuleiro estão vazias. Prove que pelo menos $\frac{2}{3}$ das casas do tabuleiro estão cobertas por dominós.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+ 
+
+\section{Testes De Seleção 2020}
+
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Maria tem $14$ dias para se preparar para uma olimpíada. Se ela treina $3$ dias seguidos, terá fadiga muscular. Mas, se ela não treina por $3$ dias seguidos, terá atrofia muscular. Ela então decide planejar quais dias, dentre os $14$, ela irá treinar, e quais não irá treinar, de modo que ela nunca treine $3$ dias seguidos nem fique sem treinar $3$ dias seguidos. De quantas maneiras diferentes Maria pode montar seu plano de treino?
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Seja $ABC$ um triângulo, $E$ um ponto sobre o segmento $AC$, $F$ um ponto sobre o segmento $AB$, e $P$ a interseção de $BE$ e $CF$. Seja $D$ o ponto tal que $AEDF$ é um paralelogramo. Prove que $D$ está sobre o lado $BC$ se, e somente se, o triângulo $BPC$ e o quadrilátero $AEPF$ possuem a mesma área.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $a_0, a_1, a_2, \dots$ uma sequência de números reais periódica (isto é, existe um inteiro positivo fixado k tal que $a_n = a_{n+k}$ para todo inteiro $n \geq 0$, onde $k$ não depende de $n$). Sabe-se que para todo $n \geq 0$, vale:
+
+
+$$a_{n+2} = \dfrac{1}{n+2} \left(a_n - \dfrac{n+1}{a_{n+1}} \right)$$
+
+Dado que $a_0 = 2020$, qual o valor de $a_1$?
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Determine todos os inteiros positivos $n$ tais que $\binom{n}{2}-1$ divide $1^7+2^7+\dots + n^7$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+\subsection{Teste 2}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Determine a quantidade de inteiros positivos $N$ de $10$ dígitos com as seguintes propriedades:
+
+\begin{itemize}
+    \item Nenhum dos dígitos de $N$ é nulo.
+    \item $N$ é múltiplo de $11$.
+    \item $N$, e todo número formado permutando-se os dígitos de $N$, é múltiplo de $12$.
+\end{itemize}
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Prove que para todo inteiro positivo $n$ existe um número $M$ que pode ser simultaneamente escrito como soma de $1, 2, 3, \dots , n$ quadrados perfeitos distintos.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Entre os estados de Alinaesquina e Berlinda, cada estrada liga uma cidade de Alinaesquina a uma cidade de
+Berlinda. Todas as estradas são de mão dupla, e entre quaisquer duas cidades é possível viajar de uma a outra,
+utilizando apenas essas (possivelmente mais de uma) estradas. Além do mais, sabe-se que, a partir de qualquer
+cidade de qualquer um dos dois estados, sai o mesmo número k de estradas. Sabemos que $k \geq 2$.
+Prove que os governos dos estados podem fechar qualquer uma das estradas, e ainda assim existirá uma rota
+(possivelmente passando por várias estradas) entre quaisquer duas cidades.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Seja ABC um triângulo, e D um ponto em seu interior. Definimos o ponto $A'$ como ponto médio do arco BDC, na circunferência que passa por B, C e D. Da mesma maneira, defina $B'$ como o ponto médio do arco ADC e $C'$
+como o ponto médio do arco ADB.
+
+
+
+
+
+\subsection{Teste 3}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Sejam $D$ e $E$ pontos sobre os lados $AB$ e $AC$ de um triângulo $ABC$ tais que $DB = BC = CE$. Os segmentos $BE$ e $CD$ se intersectam no ponto $P$. Prove que o incentro do triângulo $ABC$ pertence às circunferências circunscritas aos triângulos $BDP$ e $CEP$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Determine todos os inteiros positivos $n$ para os quais $4k^2 + n$ é um número primo para todo $0 \leq k < n$ inteiro.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $a_1, a_2, \dots $ uma sequência de inteiros positivos satisfazendo: $a_1 = 1$ e $a_{n+1} = a_n + a_{\sqrt{n}}$ para todo $n \geq 1$. Prove que para todo inteiro positivo $k$, existe $m \geq 1$ inteiro tal que $a_m$ é divisível por $k$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Uma pulga encontra-se inicialmente no ponto de coordenada $1$ da reta real. A cada segundo, do ponto de coordenada $a$, a pulga pode saltar para o ponto de coordenada $a + 2$ ou para o ponto de coordenada $\dfrac{a}{2}$. Determine o número de posições distintas (incluindo a posição inicial) nas quais a pulga pode estar em até $n$ segundos.
+
+\vspace{0.1cm}
+
+Por exemplo, se $n = 1$, a pulga pode estar nos pontos de coordenadas $1, 3$ ou $\dfrac{1}{2}$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+
+\section{Testes De Seleção 2019}
+
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Dizemos que uma tripla de inteiros $(x, y, z)$ é do tipo jenifer se $x, y$ e $z$ são inteiros positivos, com $y \geq 2$, e $$x^2-3y^2=z^2-3$$
+
+a) Encontre uma tripla $(x, y, z)$ do tipo jenifer com $x = 5$ e $x = 7$.
+
+\vspace{0.1cm}
+
+b) Mostre que para todo $x \geq 5$ e ímpar existem pelo menos duas triplas distintas $(x, y_1, z_1)$ e $(x, y_2, z_2)$ do tipo
+jenifer.
+
+\vspace{0.1cm}
+
+c) Encontre alguma tripla $(x, y, z)$ do tipo jenifer com $x$ par.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Em uma sequência de inteiros positivos, uma inversão é um par de posições em que o elemento da posição
+mais a esquerda é maior que o elemento da posição mais a direita. Por exemplo, a sequência $2, 5, 3, 1, 3$ tem $5$
+inversões: entre a primeira e a quarta posição, entre a segunda e todas as demais para a direita e, finalmente,
+entre a terceira e a quarta. Dentre todas as sequências de inteiros positivos cuja soma de seus elementos é $n$,
+qual é o maior número possível de inversões se 
+
+\vspace{0.1cm}
+
+a)$n=7$?
+
+\vspace{0.1cm}
+
+b) $n = 2019$?
+
+\emph{Observação.} As sequências de inteiros positivos consideradas nesse problema podem ter mais de $5$ elementos.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Sejam $ABC$ um triângulo e $E$ e $F$ dois pontos arbitrários sobre os lados $AB$ e $AC$, respectivamente. O circuncírculo do triângulo $AEF$ encontra o circuncírculo do triângulo $ABC$ novamente no ponto $M$. O ponto $D$ é tal que $EF$ é a mediatriz do segmento $MD$. Finalmente, $O$ é o circuncentro do triângulo $ABC$. Prove que $D$ está sobre a reta $BC$ se, e somente se, $O$ pertence ao circuncírculo do triângulo $AEF$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Vinte jogadores participaram de um torneio de xadrez. Cada jogador enfrentou todo outro jogador exatamente
+uma vez e cada partida terminou com a vitória de um dos jogadores ou em empate. Nesse torneio, notou-se
+que para cada partida que terminou em empate, cada um dos demais $18$ jogadores venceu pelo menos um dos
+dois jogadores envolvidos nela. Sabemos ainda que pelo menos dois jogos terminaram em empate. Mostre que
+é possível nomear os jogadores como $P_1, P_2, \dots , P_{20}$ de modo que o jogador $P_k$ ganhou do jogador $P_{k+1}$, para
+cada $k \in 1, 2, 3, \dots , 19$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\
+
+
+
+\subsection{Teste 2}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $ABC$ um triângulo acutângulo e $AA_1, BB_1$ e $CC_1$ suas alturas. A reta perpendicular a $AC$ por $A_1$
+intersecta a reta $B_1C_1$ no ponto $D$. Prove que a medida do ângulo $\angle ADC$ é $90^\circ$.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Um número inteiro positivo é dito poético quando pode ser representado de forma única como $2^a + 2^b + 2^c$, com
+$a, b$ e $c$ inteiros e $a \geq b \geq c \geq 0$. Existem quantos inteiros positivos poéticos menores que $2019$?
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Dados dois inteiros positivos $m$ e $n$ mostre que existe um inteiro positivo $k$ e um conjunto $S$ com pelo menos
+$m$ múltiplos positivos de $n$ tal que para todo $s \in S$ o número $\dfrac{2^k\sigma(s)}{s}$ é inteiro e ímpar.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Uma sequência $(a_n)$ é definida por $a_1 = 1000000$ e $a_{n+1} = n \left \lfloor \frac{a_n}{n} \right \rfloor +n$ para n $\geq$ 1. Prove que existe uma subsequência infinita $(b_n)$ de $(a_n)$ tal que $(b_n)$ é uma progressão aritmética.
+
+
+\vspace{0.2cm}
+
+
+ 
+
+
+\subsection{Teste 3}
+
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Cinco inteiros positivos não necessariamente distintos estão escritos em um quadro negro de maneira que a soma
+de cada três destes inteiros é divisível por cada um dos outros dois restantes. Supondo que a soma dos cinco
+números é igual a $1001$, determine os cinco números.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Considere um tabuleiro $50 \times 50$. Arnaldo irá escrever um número em cada casa deste tabuleiro de acordo com o seguinte procedimento: primeiro, escolhe $100$ números reais distintos $a_1, a_2, a_3, \dots , a_{50}, b_1, b_2, b_3, \dots , b_{50}$ de forma que exatamente $50$ destes números são racionais. Em seguida, escreve, na casa da linha $i$ e da coluna $j$, o número $a_i\cdot b_j$ . Determine a maior quantidade de números racionais que Arnaldo pode ter escrito.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $ABC$ um triângulo acutângulo cuja circunferência circunscrita é $\omega$. Sejam $D$ e $E$ pontos sobre os segmentos $AB$ e $BC$, respectivamente, tais que $AC$ é paralelo a $DE$. Sejam $P$ e $Q$ pontos no arco menor $AC$ de $\omega$ tais que $DP$ é paralelo a $EQ$. As retas $QA$ e $PC$ intersectam a reta $DE$ em $X$ e $Y$ , respectivamente. Demonstre que $\angle XBY + \angle PBQ = 180^\circ$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Considere $n$ quadrados de lado $2$ desenhados no plano cartesiano de forma que os lados destes quadrados são paralelos aos eixos coordenados. Suponha que dados quaisquer dois destes quadrados, o interior de um não contém o centro do outro e vice-versa. Seja $R$ um retângulo que contém os n quadrados e cujos lados são
+paralelos aos eixos coordenados. Prove que o perímetro de $R$ é pelo menos $4(\sqrt{n} + 1)$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+ 
+
+
+\section{Testes De Seleção 2018}
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+(a) Sejam $m$ e $n$ inteiros positivos e $p$ um número racional positivo, com $m > n$, tal que $\sqrt{m} -\sqrt{n} = p$. Prove que $m$ e $n$ são quadrados perfeitos.
+
+\vspace{0.1cm}
+
+(b) Determine todos os números de quatro algarismos $\overline{abcd}$, em que cada letra $a, b, c$ e $d$ representa um algarismo, tais que $$\sqrt{\overline{abcd}}-\sqrt{\overline{acd}}=\overline{bb}$$
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+(a) Seja $x$ um número real com $x \geq 1$. Prove que $x^3 - 5x^2 + 8x - 4 \geq 0$.
+
+\vspace{0.1cm}
+
+(b) Sejam $a, b \geq 1$ números reais. Determine o valor mínimo da expressão $ab(a + b - 10) + 8(a + b)$. Determine também os pares de números reais $(a, b)$ que fazem com que essa expressão seja igual a esse valor mínimo.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Um triângulo equilátero $ABC$ está inscrito em uma circunferência $\Omega$ e possui incírculo $\omega$. Os pontos $P$ e $Q$ são escolhidos nos lados $AC$ e $AB$, respectivamente, de modo que o segmento $PQ$ é tangente a $\omega$. A circunferência $\Omega_B$ possui centro $P$ e passa por $B$ e a circunferência $\Omega_C$ possui centro $Q$ e passa por $C$. Prove que as circunferências $\Omega$, $\Omega_B$ e $\Omega_C$ possuem um ponto em comum.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+No plano são traçadas $n$ retas em posição geral (ou seja, não existem duas delas paralelas nem três delas passando por um mesmo ponto). Prove que é possível colocar um número inteiro positivo em cada região (finita ou infinita) determinada por essas retas de modo que para cada reta a soma dos números nas regiões de um
+semiplano é igual à soma dos números nas regiões do outro semiplano.
+
+\vspace{0.1cm}
+
+\emph{Observação: uma região é um conjunto de pontos tal que o segmento de reta que conecta quaisquer dois deles
+não intersecta alguma das retas. Por exemplo, uma reta divide o plano em $2$ regiões infinitas e três retas em
+posição geral dividem o plano em $7$ regiões, alguma(s) finita(s) e outras infinitas.}
+
+\vspace{0.2cm}
+
+
+
+ 
+
+\subsection{Teste 2}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+A área central de uma cidade tem o formato de um retângulo $199 \times 199$, formado por $199^2$ quadradinhos unitários. Desejamos iluminar essa área através de postes de iluminação, e cada poste ilumina somente o(s) quadrado(s) que ele faz parte. Por exemplo, se ele estiver no meio de uma aresta de dois quadradinhos, ele
+iluminará esses dois quadradinhos, e se ele estiver num vértice compartilhado por quatro quadradinhos, esses quatro quadradinhos serão iluminados.
+
+\vspace{0.1cm}
+
+(a) Qual é o menor número de postes necessários para se iluminar toda a área central?
+
+
+\vspace{0.1cm}
+
+(b) Qual é o menor número de postes necessários para garantirmos que a área central ficará íluminada, mesmo se, por acidente, exatamente um dos postes deixar de funcionar, qualquer que seja esse poste?
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Seja $ABC$ um triângulo com incentro $I$ e tal que $AB < BC$. Se $M$ é o ponto médio de $AC$ e $N$ é o ponto médio do arco $AC$ que contém $B$ da circunferência circunscrita a $ABC$. Prove que $\angle IMA = \angle INB$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Determine todos os inteiros positivos $k \geq 5$ tais que existe um inteiro positivo $n$ tal que seus $k$ divisores positivos sejam $1 = d_1 < d_2 < \dots < d_k = n$ e $n = d_2d_3 + d_3d_5 + d_5d_2$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Dada uma função $f(x)$, definida no conjunto dos números reais e assumindo valores reais, definimos a diferença de $f(x)$ no intervalo $[a, b]$ como sendo o número $f(b) - f(a)$.
+
+\vspace{0.2cm}
+
+Prove que, dado um inteiro positivo $n$, é possível dividir o intervalo $[0, 1]$ em vários intervalos menores, e colorir
+esses intervalos menores de preto e branco, alternadamente, de modo que, para todo polinômio $P(x)$ de grau $n$ e de coeficientes reais, a soma das diferenças de $P(x)$ nos intervalos pretos seja igual à soma das diferenças de $P(x)$ nos intervalos brancos.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+ 
+
+\subsection{Teste 3}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $\Gamma$ uma circunferência de centro $K$ e seja $M$ um ponto sobre $\Gamma$. Seja $\omega$ uma semicircunferência com diâmetro
+$KM$ e seja $L$ um ponto no interior do segmento $KM$. A reta perpendicular a $KM$ pelo ponto $L$ intersecta $\omega$ em $Q$ e intersecta $\Gamma$ nos pontos $P_1$ e $P_2$ de forma que $P_1Q > P_2Q$. Finalmente, a reta $MQ$ intersecta $\Gamma$ pela segunda vez no ponto $R$, distinto de $M$. Sejam $S_1$ e $S_2$ as áreas dos triângulos $MP_1Q$ e $P_2RQ$, respectivamente.
+
+\vspace{0.1cm}
+
+(a) Prove que $MQ = QR$.
+
+\vspace{0.1cm}
+
+(b) Prove que $$\dfrac{S_1}{S_2}<3+2\sqrt{2}.$$
+
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Para cada inteiro positivo $n$, sejam $S(n)$ a soma dos algarismos de $n$ e $P(n)$ o produto dos algarismos de $n$. Por exemplo, $S(123) = 1 + 2 + 3 = 6$ e $P(451) = 4 \cdot 5 \cdot 1 = 20$. Determine todos os inteiros positivos $n$ para os quais
+ $$n = S(n) + P(n).$$
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+
+Sejam $x_1,x_2,...,x_n$ números reais dados. Prove que existe um número real $y$ tal que
+
+$$\{y-x_1\}+\{y-x_2\}+...+\{y-x_n\} \leq \frac{n-1}{2}$$
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Em um país, há $2018$ cidades e $4033$ estradas, onde cada estrada interliga duas cidades distintas. Sabe-se ainda que para cada par de cidades, há no máximo uma estrada interligando este par. Prove que existe um inteiro $4 \leq n \leq 2018$ e cidades $C_1, \dots , C_n$, duas a duas distintas, tais que as seguintes propriedades são válidas simultaneamente:
+
+\vspace{0.1cm}
+
+(i) $C_i$ está interligada a $C_{i+1}$ para todo $1 \leq i \leq n - 1$.
+
+\vspace{0.1cm}
+
+(ii) $C_1$ está interligada a $C_n$.
+
+\vspace{0.1cm}
+
+(iii) Existem $j$ e $k$ com $1 \leq j < k \leq n$ tais que $k - j\neq 1$, $k - j \neq n - 1$ e $C_j$ está interligada a $C_k$.
+
+\vspace{0.2cm}
+
+
+
+
+
+ 
+
+
+\section{Testes De Seleção 2017}
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+O números racionais $a$ e $b$ satisfazem a equação $$a^3b + ab^3 + 2a^2b^2 + 2a + 2b + 1 = 0.$$ Prove que $1 - ab$ é o quadrado de um número racional.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Determine se existe uma permutação $a_1, a_2, \dots , a_{6666}$ dos números $1, 2, \dots , 6666$ tal que $k + a_k$ é um quadrado
+perfeito para todo $k = 1, 2, \dots , 6666$.
+
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $ABCD$ um losango, onde os triângulos $ABD$ e $BCD$ são equiláteros. Sejam $M, N$ pontos sobre os lados $BC, CD$, respectivamente, tais que $\angle MAN = 30^\circ$. Seja $X$ a interseção das diagonais $AC$ e $BD$. Prove que $\angle XMN = \angle DAM$ e $\angle XNM = \angle BAN$.
+
+\vspace{0.2cm}
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Considere um tabuleiro $2n \times 2n$ onde todos os seus quadradinhos unitários estão pintados inicialmente de
+branco. Uma operação consiste em escolher três quadradinhos consecutivos em uma mesma linha ou em uma mesma coluna e trocar as cores de cada um destes quadradinhos (se um quadradinho é branco, ele vira preto e vice-versa). Determine todos os $n \geq 2$ para os quais é possível, após uma sequência finita de operações, chegar a um tabuleiro com a coloração semelhante à coloração de um tabuleiro de xadrez, ou seja, quaisquer dois quadradinhos com um lado em comum possuem sempre cores distintas.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+
+ 
+
+\subsection{Teste 2}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $ABC$ um triângulo, sendo $BC$ seu menor lado. Sejam $X, Y$ pontos nos lados $AB, AC$, respectivamente tais que $XB = BC = CY$. Sejam $K$ e $L$ pontos no prolongamento do lado $BC$ por $B$ e no prolongamento do lado $BC$ por $C$, respectivamente, tais que $KB = BC = CL$. Seja $M$ o ponto de interseção das retas $KX$ e $LY$. Sendo $G$ o baricentro do triângulo $KLM$, prove que $G$ é o incentro do triângulo $ABC$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+
+Uma empresa de instalação é contratada para colocar fios entre $25$ computadores. Esses fios serão usados para passar informações entre computadores de forma que: cada fio liga exatamente dois computadores, uma informaçáo pode ir nos dois sentidos num fio (isto é, se um fio liga o computador $A$ ao computador $B$, então
+qualquer informação pode ir do computador $A$ para o computador $B$ ou vice-versa por esse fio) e, para todo conjunto de quatro computadores, deve haver um caminho, entre fios, para a informação sair de qualquer computador desse grupo e chegar a qualquer outro computador desse mesmo grupo, usando apenas fios que conectem computadores de tal grupo. Determine a quantidade mínima e necessária de fios que a empresa deverá colocar.
+
+\vspace{0.1cm}
+
+\emph{Obs.:} Lembre-se que para mostrar que um determinado valor é o mínimo necessário, é preciso apresentar um
+exemplo que satisfaça as condições com tal valor.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Tina escreve, na lousa, o produto a seguir:
+
+$1 \cdot 2 \cdot 3 \dots n$
+
+Tina pode escolher alguns números, ou todos se ela quiser, e colocar um sinal de exclamação ao lado, transformando tal número em fatorial. Para quais $n \geq 2$, ela pode colocar sinais de exclamação de tal forma que o produto resultante seja um quadrado perfeito?
+
+\vspace{0.1cm}
+
+Por exemplo, para $n = 4$, temos que: $1 \cdot 2! \cdot 3 \cdot 4! = 144 = 12^2$.
+
+\vspace{0.2cm}
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Encontre todos os pares de reais distintos $(x, y)$ que satisfaçam, simultaneamente, as equações: $x^{100} - y^{100} =2^{99}(x - y)$ e $x^{200} - y^{200} = 2^{199}(x - y)$.
+
+\vspace{0.2cm}
+
+\textbf{Solução.}
+
+
+
+
+ 
+
+\subsection{Teste 3}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Determine todas as triplas ordenadas $(p, q, r)$ de inteiros positivos primos tais que $pq|r^4 -1$, $pr|q^4 -1$ e $qr|p^4 -1$.
+
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+(a) Sejam $r$ e $s$ números reais quaisquer e $f(x) = x^2 + rx + s$ uma função quadrática. Prove que pelo menos uma das desigualdades $f(0) - f(1) \geq 1$ ou $f(2) - f(1) \geq 1$ sempre acontece.
+
+\vspace{0.1cm}
+
+(b) Dizemos que um número real $m$ é \emph{garboso} quando existem números reais $a$ e $b$ para os quais a desigualdade
+
+$$|x^2+ax+b|\leq m$$
+
+é válida para todo $x$ com $0 \leq x \leq 2$.
+
+Determine o menor número real garboso.
+
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Determine se é possível particionar o conjunto dos inteiros positivos em innitos subconjuntos $A_1, A_2, A_3, \dots$
+tal que para cada inteiro positivo $k$ a soma de todos os elementos do conjunto $A_k$ seja igual a $k + 2017$.
+
+\textbf{Observação:} Particionar um conjunto $X$ é separar os elementos do conjunto $X$ em subconjuntos de forma que
+cada elemento de $X$ é elemento de exatamente um desses subconjuntos.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Seja $k$ o circuncírculo do triângulo $ABC$ e $D$ um ponto sobre o arco $AB$ que não contém $C$. Sejam $I_A$ e $I_B$ os incentros dos triângulos $ADC$ e $BDC$, respectivamente. Prove que o circuncírculo do triângulo $I_AI_BC$ é
+tangente a $k$ se, e somente se, $$\dfrac{AD}{BD}=\dfrac{AC+CD}{BC+CD}.$$
+
+
+\vspace{0.2cm}
+
+
+
+
+ 
+
+
+\section{Testes De Seleção 2016}
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Encontre o menor inteiro positivo que possui exatamente $2015$ divisores positivos.
+
+
+\vspace{0.2cm}
+
+\textbf{Solução.}
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Sejam $A$ e $B$ dois conjuntos finitos e não vazios. Seja $A + B$ o conjunto definido por $(a + b |$ $a \in A, b \in B)$.
+
+\vspace{0.1cm}
+
+a) Encontre o maior inteiro $k$ possível para o qual existem conjuntos $A, B \subset \mathbb{N}$ tais que $|A| = |B| = k$ e
+$A + B = (0, 1, 2, \dots , 2016)$.
+
+\vspace{0.1cm}
+
+b) Encontre o menor inteiro $m$ possível para o qual existem conjuntos $A, B \subset \mathbb{N}$ tais que $|A| = |B| = m$ e
+$A + B = (0, 1, 2, \dots , 2016)$.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $I$ o incentro do triângulo $ABC$. Sejam $A_1, B_1$ e $C_1$ os pontos de tangência do incírculo do triângulo $ABC$ com os lados $BC, AC$ e $AB$, respectivamente. Sejam $B$ e $K$ os pontos de interseção da reta $BC$ com a circunferência circunscrita do triângulo $BC_1B_1$. Sejam $C$ e $L$ os pontos de interseção da reta $BC$ com a circunferência circunscrita do triângulo $CB_1C_1$. Prove que as retas $LC_1, KB_1$ e $IA_1$ são concorrentes num mesmo ponto.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Existem $n$ números reais escritos em uma lousa, sendo $n$ um número inteiro positivo par. Em cada passo,  ́e permitido escolher dois números apagá-los e escrever em seus respectivos lugares a multiplicação entre eles. Por exemplo, se optamos por apagar os números $a$ e $b$, então devemos substituir ambos os números por $ab$, de forma que $ab$ será escrito duas vezes: uma no lugar de $a$ e outra no lugar de $b$.
+
+Mostre que, independente da escolha dos números iniciais,  ́e possível obter $n$ números iguais após um número finito de passos.
+
+\vspace{0.2cm}
+
+
+
+
+ 
+
+\subsection{Teste 2}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+
+Seja $ABCD$ um quadrilátero inscritível tal que as semirretas $\overline{AB}$ e $\overline{DC}$ se intersectam em $K$. Sejam $M$ e $N$ os pontos médios dos segmentos $AC$ e $KC$, respectivamente. Suponha que os pontos $M, B, N$ e $D$ pertencem a uma mesma circunferência. Determine a medida do ângulo $\angle ADC$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Considere os $15$ trinômios do segundo grau $x^2 -p_ix+q_i$, onde $(p_1, p_2, \dots , p_{15}, q_1, q_2, \dots , q_{15})$ é uma permutação de $(1, 2, \dots , 30)$. Uma raiz de um destes trinômios é dita favorável se esta raiz é maior que $20$. Seja $M$ o número total de raízes favoráveis destes $15$ trinômios. Determine o maior valor possível de $M$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Sejam $ABC$ um triângulo equilátero e $n \geq 2$ um inteiro positivo. Seja $M_1$ o conjunto das $n - 1$ retas paralelas
+ao lado $BC$ que dividem o triângulo ABC em $n$ regiões de mesma área. Seja $M_2$ o conjunto das $n - 1$ retas paralelas ao lado $BC$ que dividem o triângulo $ABC$ em $n$ regiões de mesmo perímetro. Demonstre que os conjuntos $M_1$ e $M_2$ são disjuntos, isto é, possuem interseção vazia.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Seja $n$ um inteiro positivo dado. Determine o menor valor possível do inteiro positivo $m$ ($m > n$) para o qual
+o conjunto $M = (n, n + 1, n + 2, \dots , m)$ pode ser particionado em subconjuntos disjuntos de maneira que em cada um destes subconjuntos, existe um elemento que é igual à soma de todos os outros elementos.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+ 
+
+\subsection{Teste 3}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Considere a sequência de dígitos $2, 0, 2, 9, 3, \dots$ em que cada dígito a partir do quinto  é o dígito das unidades
+da soma dos quatro dígitos anteriores.
+
+\vspace{0.1cm}
+
+a) Prove que essa sequência de dígitos é periódica, ou seja, se chamarmos de $a_n$ o $n$- ésimo dígito da sequência então existem inteiros positivos $M$ e $T$ tais que para $n \geq M$ temos $a_{n+T} = a_n$.
+
+\vspace{0.1cm}
+
+b) Prove que a sequência de quatro dígitos $(2, 0, 1, 5)$ aparece nessa ordem na sequência.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Duas circunferências $\omega_1$ e $\omega_2$ de centros $O_1$ e $O_2$, respectivamente, se intersectam nos pontos $A$ e $B$. Uma reta por $B$ corta $\omega_1$ novamente em $C$ e $\omega_2$ novamente em $D$, ambos diferentes de $B$. As retas tangentes a $\omega_1$ por $C$ e a $\omega_2$ por $D$ se encontram no ponto $E$. Seja $\Gamma$ a circunferência que passa pelos pontos $A, O_1$ e $O_2$. Seja $F$ o segundo ponto de interseção do segmento $AE$ com a circunferência $\Gamma$. Prove que o comprimento de $EF$ é igual ao diâmetro de $\Gamma$.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Considere inteiros positivos $m$ e $n$ tais que $m > n^n-1$ e os números $m + 1, m + 2, \dots, m + n$ são compostos. Prove que existem números primos positivos $p_1, p_2, \dots, p_n$ distintos dois a dois tais que $m + k$  é divisível por
+$p_k$ para todo $k = 1, 2, \dots , n$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Em uma lousa estão escritos alguns números inteiros. Wesley pode fazer duas operações com os números escritos na lousa. A operação “safa” consiste em apagar dois números $n$ e $n + 1$ e escrever o número $n - 2$. A operação “fadão” consiste em apagar dois números $n$ e $n + 4$ e escrever o número $n - 1$. Wesley pode fazer “safa” ou “fadão” quantas vezes desejar, desde que existam números satisfazendo as condições necessárias.
+
+\vspace{0.1cm}
+
+a) Prove que  ́e possível Wesley escrever uma quantidade finita de inteiros positivos distintos dois a dois na lousa e, usando as operações, obter o número $-3$. Observe que após fazer operações é permitido que existam números repetidos, mas não há inteiros positivos repetidos entre os números escritos inicialmente por Wesley.
+
+
+\vspace{0.1cm}
+
+
+b) Prove que, partindo de inteiros positivos distintos dois a dois, não  ́e possível obter um inteiro menor que $-3$.
+
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+ 
+
+\section{Testes De Seleção 2015}
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Considere um triângulo $ABC$ sendo $\angle A$ o menor dos três ângulos internos e seja $\Gamma$ a circunferência que passa
+pelos vértices do triângulo $ABC$. Seja $D$ um ponto sobre o arco $BC$ de $\Gamma$ que não contém $A$. Seja $E$ um ponto sobre o arco $AC$ de $\Gamma$ que não contém $B$, tal que $CE = BD$ e seja $F$ um ponto sobre o arco $AB$ de $\Gamma$ que não contém $C$ tal que $BF = CD$. O segmento $EF$ corta os lados $AB$ e $AC$ nos pontos $P$ e $Q$, respectivamente. Sabe-se também que $DF$ corta o lado $AB$ em $X$ e $DE$ corta o lado $AC$ em $Y$. Seja $R$ o encontro das retas $PY$ e $QX$. Prove que o quadrilátero $APRQ$  é inscritível.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+No país dos elfos, existem $n$ cidades, com $n \geq 3$. Essas cidades são ligadas por estradas de mão-única e entre duas cidades existe uma estrada ou nenhuma estrada. Sabe-se que de cada cidade parte pelo menos uma estrada cujo sentido é desta cidade para outra. Dizemos que uma cidade $A$ é alcançada por outra cidade $B$ se é possível encontrar um caminho seguindo pelas estradas da cidade $B$ até a cidade $A$. Um polo turístico é um conjunto de três ou mais cidades tais que todas as cidades podem ser alcançadas pelas mesmas cidades, ou seja, se $X$ e $Y$ estão em um polo e $X$  ́e alcançada por $Z$ então $Y$ também é alcançada por $Z$. Observe que uma cidade $X$ pode ser alcançada por ela mesma.
+
+\vspace{0.1cm}
+
+a) Mostre que o país dos elfos possui pelo menos um polo turístico.
+
+
+\vspace{0.1cm}
+
+b) Suponha que existe apenas um polo turístico. Mostre que se todas as estradas se tornarem de mão-dupla, então será possível viajar de qualquer cidade $A$ até qualquer cidade $B$ usando as estradas.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $n$ um inteiro positivo e $x_1, x_2, \dots, x_n > 0$ números reais tais que:
+
+$$x_1+x_2+\dots +x_n=\dfrac{1}{x_1^2}+\dfrac{1}{x_2^2}+\dots + \dfrac{1}{x_n^2}$$
+
+Mostre que para todo $k \leq n$ existem $k$ números entre $x_1, x_2, \dots, x_n$ cuja soma é maior ou igual a $k$.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Determine todos os inteiros positivos $n \geq 2$ para os quais existe uma permutação $(a_1, a_2, \dots, a_n)$ dos números do conjunto $(1, 2, \dots, n)$ de modo que os números $$a_1+a_2+\dots +a_k, k=1, 2, \dots, n,$$ deixam restos distintos dois a dois na divisão por $n$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+ 
+
+\subsection{Teste 2}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Patolino está no ponto $(0, N)$ e deseja chegar no ponto $(M, 0)$, sendo $M$ e $N$ inteiros positivos, através dos seguintes passos:
+
+\begin{itemize}
+    \item em cada passo, ele caminha $1$ unidade na direção paralela ao eixo $X$ ou direção paralela ao eixo $Y$ ;
+    \item para cada ponto $(x, y)$ em seu caminho, $x \geq 0$ e $y \geq 0$.
+\end{itemize}
+Para cada passo, ele calcula a distância do novo ponto para o eixo no qual seu passo seguiu direção paralela e anota tal valor. Se o passo o deixa mais longe da origem, ele registra tal valor como positivo. Caso contrário, ele registra tal ponto como negativo.
+
+
+Quando ele termina seu caminho, ele soma todos os valores que ele registrou. Prove que o resultado de tal soma é igual a zero.
+
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Encontre todos os pares $(a, b)$ de inteiros distintos que satisfazem a equação:
+
+$$(b^2+7(a-b))^2=a^3\cdot b$$
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Seja $ABC$ um triângulo, com circuncentro $O$, sendo $AB < AC$. Seja $I$ o ponto médio do arco $BC$ que não contém A. No segmento $AC$, seja $K$ um ponto, diferente de $C$, tal que $IK = IC$. A reta $BK$ corta o circuncírculo do triângulo $ABC$ no ponto $D$, diferente de $B$, e corta $AI$ no ponto $E$. A reta $DI$ corta a reta $AC$ no ponto $F$.
+
+\vspace{0.2cm}
+
+
+
+  
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Ache todos os inteiros positivos $x$ e $y$ para os quais a equação a seguir é verdadeira: $$3^x-5^y=2$$
+
+
+\vspace{0.2cm}
+
+
+
+ 
+
+\subsection{Teste 3}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $f(x) = x \lfloor x \lfloor x \lfloor x\rfloor \rfloor \rfloor$ para todo $x$ real positivo, onde $\lfloor y \rfloor$ denota o maior inteiro que é menor ou igual a $y$.
+
+\vspace{0.1cm}
+
+(a) Determine $x$ tal que $f(x) = 8889$.
+
+\vspace{0.1cm}
+
+(b) Prove que não existe $x$ tal que $f(x) = 8890$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Seja $n \geq 2$ um inteiro e seja $A_n$ o conjunto $$A_n=\{2^n-2^k|k\in \mathbb{Z}, 0\leq k \leq n\}$$
+
+Determine o maior inteiro que não pode ser escrito como a soma de um ou mais (não necessariamente distintos) elementos de $A_n$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Considere $n$ pontos distintos no interior de um retângulo $R$. Sabe-se que qualquer reta determinada por quaisquer dois desses pontos não é paralela a cada um dos lados do retângulo. O retângulo $R$ é dividido em $m$ retângulos menores, cada qual com lados paralelos aos lados de $R$, de modo que nenhum desses retângulos contém algum dos $n$ pontos em seu interior. Prove que $m \geq n + 1$.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Seja $ABC$ um triângulo. Sejam $P_1, P_2$ dois pontos sobre o lado $AB$ tal que $P_2$ está no segmento $BP_1$ e $AP_1$ = $BP_2$. Analogamente, sejam $Q_1, Q_2$ pontos sobre o lado $BC$ tal que $Q_2$ está no segmento $BQ_1$ e $BQ_1$ = $CQ_2$. Os segmentos $P_1Q_2$ e $P_2Q_1$ se cortam no ponto $R$. Os circuncírculos dos triângulos $P_1P_2R$ e $Q_1Q_2R$ se cortam novamente no ponto $S \neq R$, que está no interior do triângulo $P_1Q_1R$. Finalmente, seja $M$ o ponto médio do lado $AC$. Prove que os ângulos $\angle P_1RS$ e $\angle Q_1RM$ são iguais.
+
+
+
+
+
+
+
+ 
+
+
+\section{Testes De Seleção 2014}
+
+\subsection{Teste 1}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Determine todos os inteiros positivos $x , y$ tais que $\dfrac{xy^3}{x+y}$ seja o cubo de um número primo.
+
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+
+Seja ABC um triângulo com $\angle ABC > \angle BCA$ e $\angle BCA \geq 30^\circ$. As bissetrizes internas dos ângulos $\angle ABC$ e $\angle BCA$ encontram os lados opostos do triângulo nos pontos $D$ e $E$, respectivamente. O ponto $P$ é o ponto de encontro dos segmentos $BD$ e $CE$. Sabendo que $PD = PE$ e que o raio do incírculo do triângulo $ABC$ é igual a $1$, determine o valor máximo do comprimento do lado $BC$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+No interior de um círculo unitário $\Gamma$ são marcados $N \geq 3$ segmentos de tal forma que a soma de todos esses $N$ comprimentos  é igual a $2\sqrt{N}$. Prove que existe uma circunferência concêntrica a $\Gamma$ que intersecta pelo menos dois desses segmentos.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+Seja m um número inteiro positivo e p um número primo tal que $p > m$. Prove que o número de inteiros positivos n para os quais o número $m^2+n^2+p^2-2mn-2mp-2np$ é um quadrado perfeito não dependente de $p$.
+
+
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+\subsection{Teste 2}
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Seja $ABCDE$ um pentágono convexo inscritível em uma circunferência tal que $AB = BC$ e $CD = DE$. Os segmentos $AD$ e $BE$ se intersectam no ponto $P$ e o segmento $BD$ intersecta o segmento $CA$ em $Q$ e o segmento $CE$ em $T$. Prove que o triângulo $PQT$ é isósceles.
+
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Um trinˆomio do segundo grau $x2 + px + q^$ com coeficientes inteiros p e q é dito especial se possui raízes irracionais $\alpha_1$ e $alpha_1$. Encontre o menor valor da soma $| \alpha_1 | + | \alpha_2 |$, dentre todos os trinômios especiais.
+
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Em um tabuleiro de $n\times n$, com $n \geq 2$, as linhas são numeradas de 1 a n da esquerda para a direita e colunas são numeradas de 1 a n de cima para baixo. São retirados os quadradinhos que estão ao mesmo tempo em uma linha ímpar e coluna ímpar, deixando buracos no tabuleiro. Determine o número mínimo de peças retangulares necessárias para cobrir a região que sobrou no tabuleiro sem que alguma peça cubra total ou parcialmente algum dos buracos e sem superposições entre as peças.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Sejam $m$ e $n$ inteiros positivos, com $m, n \geq 2$. Encontre todos os pares de inteiros positivos $(x, y)$ que são solução da equação:
+\begin{equation*}
+    x^n+y^n=3^m
+\end{equation*}
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+ 
+
+\subsection{Teste 3}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Arnaldo e Bernaldo participam do seguinte jogo: eles têm duas pilhas de pedras.
+Eles jogam alternadamente, começando por Arnaldo. Em sua vez, o jogador deve realizar exatamente uma das seguintes operações:
+\begin{itemize}
+    \item Retirar uma pedra de uma das pilhas;
+    \item Retirar duas pedras de uma das pilhas;
+    \item Retirar uma pedra de cada pilha;
+    \item Retirar duas pedras de uma pilha e uma pedra da outra.
+\end{itemize}
+O jogador que retirar a última pedra perde.
+
+Se inicialmente há 2014 pedras em uma pilha e 1000 pedras na outra pilha, qual dos jogadores consegue garantir sua vitória, não importando como o outro jogador jogue?
+\vspace{0.2cm}
+
+
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+O incírculo do triângulo $ABC$ tangencia $AB$ e $AC$ em $D$ e $E$, respectivamente. Um círculo passa pelos pontos $B$ e $C$ e tangencia a reta $DE$ no ponto $X$. Prove que o ângulo $\angle BXC$ é obtuso.
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+ 
+\textbf{$\blacktriangleright$ PROBLEMA 3} 
+
+Prove que não existem inteiros positivos $x, y, z, w$ tais que $x^2+y^2=z^2$ e $y^2+z^2=w^2$
+
+
+\vspace{0.2cm}
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Considere a função dos racionais positivos nos racionais positivos
+\begin{equation*}f(x)=2 \left \lfloor \dfrac{1}{x}\right \rfloor -\dfrac{1}{x}+1\end{equation*}
+
+
+
+
+Mostre que na sequência 
+
+\begin{equation*}
+    1, f(1), f(f(1)), f(f(f(1))), f(f(f(f(1)))), \dots
+\end{equation*}
+
+cada racional positivo aparece exatamente uma vez.
+
+
+
+\vspace{0.2cm}
+
+\textbf{Solução.}
+
+
+
+
+ 
+
+\section{Testes De Seleção 2013}
+
+
+\subsection{Teste 1}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Sejam $a$ e $n$ inteiros positivos maiores que $1$. Prove que se $n$ divide $(a - 1)^2$, então $n$ também divide $$a^{n-1}+a^{n-2}+\dots +a+1.$$
+
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+
+Seja $x_1 = 1$ e para todo inteiro $n \geq 1$ defina $$x_{n+1}=x_n+\lfloor \dfrac{x_n}{n} \rfloor+2;$$
+
+onde $\lfloor x \rfloor$ denota o maior inteiro que não é maior que $x$. Encontre o valor de $x_{2013}$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Sejam $O$ e $H$ o circuncentro e o ortocentro do $\triangle ABC$, respectivamente. Sejam $M$ e $N$ os pontos médios de $BH$ e $CH$, respectivamente. O ponto $B'$ está sobre o círculo circunscrito do $\triangle ABC$ de modo que $BB'$ é um diâmetro. Se o quadrilátero $HONM$ é inscritível, prove que $B'N = \frac{AC}{2}$.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Existem $25$ casas em Colorândia. Sabe-se que entre quaisquer duas casas existe um  único caminho e que este está pintado de alguma cor. Além disso, para quaisquer três casas, sempre existem dois caminhos de uma mesma cor partindo de uma delas em
+direção às outras duas. Prove que existe uma casa da qual partem pelo menos 10 caminhos de uma mesma cor para outras casas de Colorândia.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+ 
+
+\subsection{Teste 2}
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Defina a sequência $s_n$, $n \geq 1$, formada pelos dois  ́ultimos dígitos, dezena e unidade nessa ordem, do número $7^n$. Encontre todos os inteiros $x$ para os quais existem inteiros positivos $a$ e $b$ tais que, $s_a \neq s_b$, $s_a + x$ e $s_b + x$ são quadrados perfeitos.
+
+\vspace{0.2cm}
+
+
+  
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Em uma festa, seis pessoas sentam-se ao redor de uma mesa circular, cada um com uma quantidade entre $0$ e $8$ balas, inclusive. No meio da mesa há um cesto com uma quantidade suficientemente grande de balas. Eles jogam um jogo no qual cada um realiza duas ações quando uma música que estiver tocando mudar. Cada vez que trocar a música cada um passa para a pessoa a sua direita as balas que tem. Em seguida, pega a mesma quantidade que foi passada no cesto de
+balas e passa para a pessoa a sua esquerda. Após todos entregarem as balas, se alguém tiver mais que $8$ balas deverá se desfazer de $9$ delas, colocando elas no cesto e continuar o jogo. Encontre
+todas as quantidades de trocas de músicas para as quais cada uma das pessoas volta a ter a mesma quantidade que tinha no começo do jogo, independente de quantas balas cada um possuía no início.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Uma sequência de números reais $a_1, a_2, \dots, a_n, \dots$  é tal que $a_1 = 1, a_2 = 9$ e $a_{n+2} = 14a_{n+1} - a_n - 4$ para todos os inteiros positivos $n$. Prove que para cada inteiro positivo $n$ o número $a_n$  ́e um quadrado de um número inteiro.
+
+\vspace{0.2cm}
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+Seja $A$ um ponto fora de uma circunferência $\omega$. Por $A$ são traçadas duas retas, cada uma intersecta $\omega$ em dois pontos. A primeira intersecta $\omega$ em $B$ e $C$, a segunda intersecta em $D$ e $F$ ($D$ está entre $A$ e $E$). A reta por $D$ paralela a $BC$ corta $\omega$ novamente em $F$. A reta $AF$ corta $\omega$ novamente em $T$, diferente de $F$. As retas $BC$ e $ET$ se encontram em $M$. O ponto $N$ é tal que $M$ é o ponto médio de $AN$. Seja $K$ o ponto médio de $BC$. Prove que os pontos $D,E,K$ e $N$ estão sobre uma circunferência.
+
+\vspace{0.2cm}
+
+
+
+
+
+ 
+
+\subsection{Teste 3}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 1}
+
+Cem estudantes fizeram um exame que consistia em $50$ perguntas do tipo verdadeiro ou falso. Prove que existe um grupo formado por três destes alunos cujas respostas coincidiram em pelo menos $13$ questões.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 2}
+
+Um quadrilátero convexo $ABCD$ está inscrito em uma circunferência de centro $O$ e circunscrito em uma circunferência de centro $I$. Prove que:
+
+\vspace{0.1cm}
+
+$$\dfrac{IB^2}{AB \cdot BC}+\dfrac{IC^2}{BC \cdot CD}+\dfrac{ID^2}{CD \cdot DA}+\dfrac{IA^2}{DA\cdot AB}=2$$
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+
+\textbf{$\blacktriangleright$ PROBLEMA 3}
+
+Um inteiro positivo $b$ é dito maroto se para todo inteiro positivo $a$ tal que $b^2$ divide $a^5$, então $b$ divide $a^2$. Determine o número de inteiros positivos marotos menores que $2013$.
+
+\vspace{0.2cm}
+
+
+
+
+
+
+
+\vspace{0.5cm}
+
+\textbf{$\blacktriangleright$ PROBLEMA 4}
+
+
+Considere um conjunto $S$ de círculos $S_1, \dots , S_m$ e um conjunto $W$ de triângulos equiláteros $T_1, \dots , T_n$, cujos lados correspondentes entre quaisquer dois triângulos são paralelos. Sejam $S =\cup S_i$ e $T =\cup T_i$. Sabe-se que existe uma constante real positiva $\lambda$ tal que para cada triângulo, $T_i$, tem-se que $[S \cap T_i] \geq \lambda[T_i]$. Demonstre que $[T] \leq  \dfrac{13}{\lambda}[S]$.
+
+\vspace{0.2cm}
+
+
+
+
+\end{document}
